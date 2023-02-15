@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Game</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="game">
+        <h1>Guess The Word</h1>
+        <div class="loading">
+          <img src="loading (1).png" alt="" />
+        </div>
+        <div class="puzzle-no">
+          <h2>Puzzle No. <span class="number"></span></h2>
+        </div>
+        <div class="valid-word"><h3>Enter a Valid Word</h3></div>
+        <div class="word">
+          <div class="letters" id="letter01"></div>
+          <div class="letters" id="letter02"></div>
+          <div class="letters" id="letter03"></div>
+          <div class="letters" id="letter04"></div>
+          <div class="letters" id="letter05"></div>
+        </div>
+        <div class="word">
+          <div class="letters" id="letter06"></div>
+          <div class="letters" id="letter07"></div>
+          <div class="letters" id="letter08"></div>
+          <div class="letters" id="letter09"></div>
+          <div class="letters" id="letter10"></div>
+        </div>
+        <div class="word">
+          <div class="letters" id="letter11"></div>
+          <div class="letters" id="letter12"></div>
+          <div class="letters" id="letter13"></div>
+          <div class="letters" id="letter14"></div>
+          <div class="letters" id="letter15"></div>
+        </div>
+        <div class="word">
+          <div class="letters" id="letter16"></div>
+          <div class="letters" id="letter17"></div>
+          <div class="letters" id="letter18"></div>
+          <div class="letters" id="letter19"></div>
+          <div class="letters" id="letter20"></div>
+        </div>
+        <div class="word">
+          <div class="letters" id="letter21"></div>
+          <div class="letters" id="letter22"></div>
+          <div class="letters" id="letter23"></div>
+          <div class="letters" id="letter24"></div>
+          <div class="letters" id="letter25"></div>
+        </div>
+        <div class="word">
+          <div class="letters" id="letter26"></div>
+          <div class="letters" id="letter27"></div>
+          <div class="letters" id="letter28"></div>
+          <div class="letters" id="letter29"></div>
+          <div class="letters" id="letter30"></div>
+        </div>
+      </div>
+      <div class="you-won">
+        <h1>Congratulations You Won The Game</h1>
+        <button id="won-play-again">Play Again</button>
+      </div>
+      <div class="you-loose">
+        <h1>
+          Better Luck Next Time, The Correct word was
+          <span class="correct-word"></span>
+        </h1>
+        <button id="lost-play-button">Play Again</button>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
