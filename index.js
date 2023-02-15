@@ -44,7 +44,6 @@ async function init() {
   const fetchedWord = processingResponse.word.toUpperCase();
   const fetchedWordParts = fetchedWord.split("");
   puzzleNumber.innerText = processingResponse.puzzleNumber;
-  console.log(processingResponse);
   loading.classList.add("display-none");
   puzzleNumberContent.classList.add("display-block");
   puzzleWord.innerText = processingResponse.word.toUpperCase();
