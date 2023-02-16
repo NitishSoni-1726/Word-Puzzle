@@ -223,3 +223,18 @@
 .letter-not-present {
   opacity: 70%;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: black;
+}
+
+.footer a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
